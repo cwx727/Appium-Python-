@@ -1,0 +1,113 @@
+2019-07-15 06:55:56:842 [Appium] Welcome to Appium v1.13.0
+2019-07-15 06:55:56:844 [Appium] Non-default server args:
+2019-07-15 06:55:56:845 [Appium]   port: 4702
+2019-07-15 06:55:56:845 [Appium]   bootstrapPort: 4900
+2019-07-15 06:55:56:846 [Appium]   sessionOverride: true
+2019-07-15 06:55:56:846 [Appium]   logFile: ../log/test0.log
+2019-07-15 06:55:56:847 [Appium]   udid: 127.0.0.1:21503
+2019-07-15 06:55:56:847 [Appium]   noReset: true
+2019-07-15 06:55:56:849 [Appium] Deprecated server args:
+2019-07-15 06:55:56:850 [Appium]   -U,--udid => --default-capabilities '{"udid":"127.0.0.1:21503"}'
+2019-07-15 06:55:56:850 [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2019-07-15 06:55:56:851 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-07-15 06:55:56:851 [Appium]   udid: 127.0.0.1:21503
+2019-07-15 06:55:56:852 [Appium]   noReset: true
+2019-07-15 06:55:56:887 [Appium] Appium REST http interface listener started on 0.0.0.0:4702
+2019-07-15 06:55:57:323 [HTTP] --> POST /wd/hub/session
+2019-07-15 06:55:57:323 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"127.0.0.1:21503","appium:app":"E:\\mukewang.apk","appium:appActivity":".user.login.MCLoginActivity","appium:noReset":"true","appium:systemPort":5104}]},"desiredCapabilities":{"platformName":"Android","automationName":"UiAutomator2","deviceName":"127.0.0.1:21503","app":"E:\\mukewang.apk","appActivity":".user.login.MCLoginActivity","noReset":"true","systemPort":5104}}
+2019-07-15 06:55:57:327 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","automationName":"UiAutomator2","deviceName":"127.0.0.1:21503","app":"E:\\mukewang.apk","appActivity":".user.login.MCLoginActivity","noReset":"true","systemPort":5104},null,{"firstMatch":[{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"127.0.0.1:21503","appium:app":"E:\\mukewang.apk","appium:appActivity":".user.login.MCLoginActivity","appium:noReset":"true","appium:systemPort":5104}]}]
+2019-07-15 06:55:57:328 [BaseDriver] Event 'newSessionRequested' logged at 1563173757327 (14:55:57 GMT+0800 (GMT+08:00))
+2019-07-15 06:55:57:332 [BaseDriver] The capabilities ["udid"] are not standard capabilities and should have an extension prefix
+2019-07-15 06:55:57:596 [Appium] Appium v1.13.0 creating new AndroidUiautomator2Driver (v1.33.1) session
+2019-07-15 06:55:57:596 [Appium] Capabilities:
+2019-07-15 06:55:57:597 [Appium]   platformName: Android
+2019-07-15 06:55:57:597 [Appium]   udid: 127.0.0.1:21503
+2019-07-15 06:55:57:597 [Appium]   automationName: UiAutomator2
+2019-07-15 06:55:57:597 [Appium]   deviceName: 127.0.0.1:21503
+2019-07-15 06:55:57:598 [Appium]   app: E:\mukewang.apk
+2019-07-15 06:55:57:598 [Appium]   appActivity: .user.login.MCLoginActivity
+2019-07-15 06:55:57:598 [Appium]   noReset: true
+2019-07-15 06:55:57:598 [Appium]   systemPort: 5104
+2019-07-15 06:55:57:601 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"udid":"127.0.0.1:21503","... were provided
+2019-07-15 06:55:57:602 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-07-15 06:55:57:608 [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2019-07-15 06:55:57:613 [BaseDriver] Session created with session id: 28fbc7d1-db95-40f5-9dbd-b9d16d09c00c
+2019-07-15 06:55:57:655 [BaseDriver] Using local app 'E:\mukewang.apk'
+2019-07-15 06:55:57:656 [UiAutomator2] Checking whether app is actually present
+2019-07-15 06:55:57:666 [ADB] Found 1 'build-tools' folders under 'C:\Program Files\Java\sdk' (newest first):
+2019-07-15 06:55:57:666 [ADB]     C:/Program Files/Java/sdk/build-tools/android-4.3
+2019-07-15 06:55:57:667 [ADB] Using 'adb.exe' from 'C:\Program Files\Java\sdk\platform-tools\adb.exe'
+2019-07-15 06:55:57:667 [AndroidDriver] Retrieving device list
+2019-07-15 06:55:57:667 [ADB] Trying to find a connected android device
+2019-07-15 06:55:57:668 [ADB] Getting connected devices...
+2019-07-15 06:55:57:701 [ADB] 1 device(s) connected
+2019-07-15 06:55:57:701 [AndroidDriver] Using device: 127.0.0.1:21503
+2019-07-15 06:55:57:704 [ADB] Using 'adb.exe' from 'C:\Program Files\Java\sdk\platform-tools\adb.exe'
+2019-07-15 06:55:57:704 [ADB] Setting device id to 127.0.0.1:21503
+2019-07-15 06:55:57:705 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell getprop ro.build.version.sdk'
+2019-07-15 06:55:57:733 [ADB] Current device property 'ro.build.version.sdk': 22
+2019-07-15 06:55:57:733 [ADB] Device API level: 22
+2019-07-15 06:55:57:734 [AndroidDriver] Parsing package and activity from app manifest
+2019-07-15 06:55:57:736 [ADB] Using the alternative activity name detection method because of: Could not find 'apkanalyzer.bat' in ["C:\\Program Files\\Java\\sdk\\platform-tools\\apkanalyzer.bat","C:\\Program Files\\Java\\sdk\\emulator\\apkanalyzer.bat","C:\\Program Files\\Java\\sdk\\tools\\apkanalyzer.bat","C:\\Program Files\\Java\\sdk\\tools\\bin\\apkanalyzer.bat","C:\\Program Files\\Java\\sdk\\build-tools\\android-4.3\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Program Files\Java\sdk'?
+2019-07-15 06:55:57:737 [ADB] Using 'aapt.exe' from 'C:\Program Files\Java\sdk\tools\aapt.exe'
+2019-07-15 06:55:57:738 [ADB] Extracting package and launch activity from manifest
+2019-07-15 06:55:57:778 [ADB] Package name: 'cn.com.open.mooc'
+2019-07-15 06:55:57:779 [ADB] Main activity name: 'cn.com.open.mooc.index.splash.MCSplashActivity'
+2019-07-15 06:55:57:779 [AndroidDriver] Parsed package and activity are: cn.com.open.mooc/cn.com.open.mooc.index.splash.MCSplashActivity
+2019-07-15 06:55:57:780 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 wait-for-device'
+2019-07-15 06:55:57:804 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell echo ping'
+2019-07-15 06:55:57:830 [AndroidDriver] Pushing settings apk to device...
+2019-07-15 06:55:57:831 [ADB] Getting install status for io.appium.settings
+2019-07-15 06:55:57:832 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package io.appium.settings'
+2019-07-15 06:55:57:861 [ADB] 'io.appium.settings' is installed
+2019-07-15 06:55:57:862 [ADB] Getting package info for 'io.appium.settings'
+2019-07-15 06:55:57:862 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package io.appium.settings'
+2019-07-15 06:55:57:914 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.1' >= '2.14.1')
+2019-07-15 06:55:57:914 [ADB] There is no need to install/upgrade 'C:\Users\thinkpad\AppData\Roaming\npm\node_modules\appium\node_modules\_io.appium.settings@2.14.1@io.appium.settings\apks\settings_apk-debug.apk'
+2019-07-15 06:55:57:915 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:55:57:916 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell 'pgrep --help; echo $?''
+2019-07-15 06:55:57:956 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:55:57:987 [AndroidDriver] Granting android.permission.SET_ANIMATION_SCALE, CHANGE_CONFIGURATION, ACCESS_FINE_LOCATION by pm grant
+2019-07-15 06:55:57:988 [ADB] Granting permissions ["android.permission.SET_ANIMATION_SCALE","android.permission.CHANGE_CONFIGURATION","android.permission.ACCESS_FINE_LOCATION"] to 'io.appium.settings'
+2019-07-15 06:55:57:988 [ADB] Got the following command chunks to execute: [["pm","grant","io.appium.settings","android.permission.SET_ANIMATION_SCALE",";","pm","grant","io.appium.settings","android.permission.CHANGE_CONFIGURATION",";","pm","grant","io.appium.settings","android.permission.ACCESS_FINE_LOCATION",";"]]
+2019-07-15 06:55:57:989 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pm grant io.appium.settings android.permission.SET_ANIMATION_SCALE \; pm grant io.appium.settings android.permission.CHANGE_CONFIGURATION \; pm grant io.appium.settings android.permission.ACCESS_FINE_LOCATION \;'
+2019-07-15 06:55:58:338 [AndroidDriver] Activating 'io.appium.settings'
+2019-07-15 06:55:58:339 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell monkey -p io.appium.settings -c android.intent.category.LAUNCHER 1'
+2019-07-15 06:55:58:497 [AndroidDriver] Command stdout: Events injected: 1
+2019-07-15 06:55:58:498 [AndroidDriver] ## Network stats: elapsed time=23ms (0ms mobile, 0ms wifi, 23ms not connected)
+2019-07-15 06:55:58:499 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:55:58:500 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:55:58:883 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:55:58:886 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:55:59:254 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:55:59:255 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:55:59:610 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:55:59:611 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:55:59:979 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:55:59:980 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:56:00:330 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:56:00:331 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:56:00:705 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:56:00:707 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:56:01:088 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:56:01:090 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:56:01:448 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:56:01:450 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:56:01:829 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:56:01:831 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:56:02:192 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:56:02:193 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:56:02:550 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:56:02:554 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:56:02:929 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:56:02:930 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:56:03:290 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:56:03:292 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:56:03:661 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-15 06:56:03:663 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell pgrep \^appium\\.settings\$'
+2019-07-15 06:56:03:730 [AndroidDriver] Cannot activate 'io.appium.settings'. Falling back to startApp call
+2019-07-15 06:56:03:731 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell am start -W -n io.appium.settings/.Settings -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-07-15 06:56:04:576 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell settings put secure mock_location 1'
+2019-07-15 06:56:04:930 [Logcat] Starting logcat capture
+2019-07-15 06:56:04:962 [ADB] Getting install status for io.appium.uiautomator2.server
+2019-07-15 06:56:04:962 [ADB] Running 'C:\Program Files\Java\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:21503 shell dumpsys package io.appium.uiautomator2.server'
